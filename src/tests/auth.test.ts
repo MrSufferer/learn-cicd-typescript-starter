@@ -19,7 +19,7 @@ describe("person", () => {
 describe("getAPIKey", () => {
     test("returns API key", () => {
         const headers = {
-            authorization: "ApiKey1234567890",
+            authorization: "ApiKey 1234567890",
         };
         expect(getAPIKey(headers)).toBe("1234567890");
     });
